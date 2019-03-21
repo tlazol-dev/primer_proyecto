@@ -29,11 +29,11 @@ switch (true) {
   echo "Bien";
   break;
 
-  case case ($calificacion == 9) && ($conducta == 9):
+  case ($calificacion == 9) && ($conducta == 9):
   echo "Muy Bien";
   break;
 
-  case case ($calificacion == 10) && ($conducta == 10):
+  case ($calificacion == 10) && ($conducta == 10):
   echo "Excelente";
   break;
 
@@ -41,16 +41,6 @@ switch (true) {
   echo "Recursar";
 }
 
-switch(true) {
-case ($a == 1) && ($b == 1):
-     break;
-case ($a == 0) && ($b == 1):
-     break;
-case ($a == 1) && ($b == 0):
-     break;
-case ($a == 0) && ($b == 0):
-     break;
-}
 
 
 
